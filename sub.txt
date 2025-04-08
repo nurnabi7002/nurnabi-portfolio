@@ -1,0 +1,150 @@
+<!-- Form Submit -->
+
+<section class="form-s">
+<div class="form-d">
+<form action="https://getform.io/f/byvkogxa" method="POST" enctype="multipart/form-data">
+ 
+ <!-- Form D1 -->
+     <div class="form-d-1">
+    <input type="text" name="Full Name" placeholder="Full Name" required class="input">
+    
+    <input type="email" name="Email" placeholder="Your Email" required class="input">
+     </div>
+     
+<!-- Form D2 -->
+
+          <div class="form-d-1">
+    <input type="text" name="Subject" placeholder="Subject" required class="input">
+    
+    <input type="text" name="Address" placeholder="Address" required class="input">
+     </div>
+
+<!-- Form D3 (Form Message) [Form D2 for css]-->
+      <div class="form-d-2">
+     <textarea type="text" name="Message" class="msg" placeholder="Enter Your Message"></textarea>
+    <button type="submit" class="fsb" id="lb">Send</button>
+      </div>
+</form>
+</div>
+</section>
+
+<!-- Form End -->
+
+
+
+
+
+
+
+
+
+//Form Submission Button Actions
+
+document.getElementById('lb').addEventListener('click', function() {
+      setTimeout(function() {
+        window.location.href = 'index.html';
+        alert("Your Message Has Sent!")
+      }, 1500);
+    });
+
+
+
+
+
+
+
+
+
+/*Form Submit*/
+
+.form-s {
+ width: 100vw;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+
+.form-d {
+ width: 100vw;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+
+
+input {
+ color: white;
+ background: transparent;
+ border: none;
+ box-shadow: 0px 0px 15px blue;
+ outline: none;
+ border-radius: 25px;
+ margin-top: 30px;
+}
+
+
+.form-d-1 {
+ display: flex;
+ gap: 20px;
+}
+
+
+.form-d-2 {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ gap: 30px;
+}
+
+.input::placeholder {
+ color: white;
+ text-align: center;
+}
+
+
+.input {
+ padding: 15px;
+ width: 140px;
+}
+
+.msg {
+    height: 250px;
+    width: 300px;
+    margin-top: 30px;
+    padding: 15px;
+    color: white;
+    background: transparent;
+    border: none;
+    box-shadow: 0px 0px 15px blue;
+    outline: none;
+    border-radius: 25px;
+    resize: none
+}
+
+.msg::placeholder {
+ color: white;
+}
+
+
+.fsb {
+ padding: 15px 100px 15px 100px;
+ background: blue;
+ border: none;
+ color: white;
+ font-size: 17px;
+ font-weight: bold;
+ border-radius: 25px;
+ box-shadow: 0px 0px 30px blue;
+ transition: 0.5s;
+}
+
+
+.fsb:hover {
+ background: black;
+ transition: 0.5s;
+}
+
+
