@@ -1,4 +1,4 @@
-# Personal Portfolio - Nur Nabi
+# Personal Portfolio - MD Nur Nabi Khan
 
 Welcome to my personal portfolio website! This website showcases my work, skills, and projects as a Frontend Web Developer. It’s designed to reflect my personality, development style, and the technologies I enjoy working with.
 
