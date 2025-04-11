@@ -24,6 +24,8 @@ Welcome to my personal portfolio website! This website showcases my work, skills
 
 - **Home** – Quick intro with a hero section
 - **About** – Short bio and skills
+- **Service** - All services are included
+- **Skills** - Skills are displayed
 - **Projects** – Highlighted works with visuals
 - **Contact** – A form to reach out
 
