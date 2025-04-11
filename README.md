@@ -19,7 +19,6 @@ Welcome to my personal portfolio website! This website showcases my work, skills
 - HTML5
 - CSS3
 - JavaScript
-- [Tailwind CSS](https://tailwindcss.com/) (for styling)
 
 ## Sections Included
 
